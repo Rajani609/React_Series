@@ -1,0 +1,18 @@
+.main-container{
+    background-color: rgb(253, 253, 161);
+    padding: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    margin: 1rem;
+    
+}
+
+#profile-pic{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}

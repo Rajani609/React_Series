@@ -1,0 +1,79 @@
+.counter{
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    padding: 1.5rem;
+  
+    background-color: rgb(230, 251, 249);
+    outline: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    width: 350px;
+    height: 200px;
+    font-size: small;
+    
+}
+#increment-btn {
+    background-color: #fe3df1;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 3px;
+    font-size: 1rem; 
+    
+}
+#increment-btn:hover {
+    background-color: #d21cbc;
+   
+}
+#count-display {
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#decrement-btn {
+    background-color: #3936ff;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 3px;
+    font-size: 1rem; 
+    
+}
+#decrement-btn:hover {
+    background-color: #091ad3;
+}
+#reset-btn {
+    background-color: #76ff37;
+    color: black;
+    border: none;
+    padding: 10px;;
+    cursor: pointer;
+    margin: 3px;
+    font-size: 1rem; 
+    
+
+}
+#reset-btn:hover {
+    background-color: #2ad75b;
+}
+
+.button-container {
+    display: flex;
+   
+    justify-content: center;
+    gap: 10px;
+    padding-top: 40px;
+    
+    
+}
+.count{
+    color: red; 
+    font-weight: bold;
+
+}
