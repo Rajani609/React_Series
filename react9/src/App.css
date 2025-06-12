@@ -1,0 +1,41 @@
+
+.App{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color:  rgb(255, 168, 248);
+  color: #333;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  
+}
+
+#app-id{
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  border: 50% solid black;
+}
+
+#app-button{
+  background-color: #034b04;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 40px;
+  width: 100%;
+  margin-top: 25px;
+}
+#heading{
+  font-size: 30px;
+  margin-top: 20px;
+  color: #034b04;
+  background-color: rgb(255, 168, 248);
+}
